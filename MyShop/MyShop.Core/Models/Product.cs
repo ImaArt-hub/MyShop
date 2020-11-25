@@ -17,7 +17,7 @@ namespace MyShop.Core.Models
         public String Dscription { get; set; }
         [Range(0,1000)]
         public decimal Price { get; set; }
-        public String Catergary { get; set;}
+        public String Catergory { get; set;}
         public String Image { get; set; }
 
         public Product()
